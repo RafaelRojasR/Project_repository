@@ -1,9 +1,17 @@
 # Project_repository
 
-Hola esta es una prueba del repositorio del proyecto
+### Humberto's functions
 
-Hola mundo
+- crear_columna_lealtad_tienda.py
 
-Solo estoy probando
+### Katherine's functions
 
-prueba branch
+- dir_clean.py
+
+### Rafael's functions
+
+- classes_and_abc.py
+
+### Moisés functions
+
+- 
