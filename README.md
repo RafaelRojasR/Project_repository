@@ -12,6 +12,10 @@
 
 - classes_and_abc.py
 
+### Maria Alejandra's functions
+
+- motivo_rechazo.py
+
 ### Moisés functions
 
 - 
