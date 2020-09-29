@@ -12,3 +12,5 @@ def clean_motivo_rechazo(df):
                                                                                'Daño Mecánico Transporte'], 
                                                                               'Problema en transporte')
     df['Denominación Motivo Rechazo'] = df['Denominación Motivo Rechazo'].str.capitalize()
+
+    return df
