@@ -3,6 +3,7 @@
 ### Humberto's functions
 
 - crear_columna_lealtad_tienda.py
+- colfechas_antiguedad
 
 ### Katherine's functions
 

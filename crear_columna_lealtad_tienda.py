@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-
 def calculate_loyalty(promedio):
         if np.isnan(promedio):
             return "Tienda sin datos"
@@ -11,6 +10,7 @@ def calculate_loyalty(promedio):
             return "Lealtad media"
         else:
             return "Lealtad baja"
+
 
 def crear_col_lealtad_tienda(final_df):
 
@@ -25,5 +25,6 @@ def crear_col_lealtad_tienda(final_df):
 
         pedidos_tiendadf3['lealtad'] = pedidos_tiendadf3['Num promedio de pedidos mensuales'].apply(calculate_loyalty)
 
-        return pedidos_tiendadf3['lealtad']
-
+        df_temp = final_df.merge(pedidos_tiendadf3[['Tienda','lealtad']], on='Tienda')
+        
+        return df_temp
